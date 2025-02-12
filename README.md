@@ -14,6 +14,8 @@ This is a template repository for Python data science projects
 
 ### Using/downloading this template
 
+
+
 ### Virtual environments
 
 First set up a virtual environment, this makes sure that the packages that you install only affect this project. This is really useful because when we start using lots of different packages, they can need specific versions of other packages (dependencies) and it is common to need different versions of the same package for different projects. 
@@ -39,3 +41,15 @@ To run all our test code, we can use:
 `python3 -m pytest .`
 
 This should give us a message saying "1 passed in 0.02s" which lets us know the tests in our test directory passed!
+
+### Using Git and GitHub
+
+1. Make an issue for the problem you're planning on fixing if it doesn't already exist.
+2. Make sure you are on the `main` branch. (`git checkout main`) and `git pull` all the latest changes.
+2. Create a new `development` branch, where you will do your development and switch to it:
+`git checkout -b development` (you can call it something more specific to the problem you're working on)
+3. Create a work-in-progress Pull Request from your new branch to the `main` branch. This will be a place you can get an overview of the progress you're making.
+3. Working locally, take regular snapshots of your progress using `git add` and `git commit -m` and update GitHub using `git push`.
+3. When you are finished with a new feature, make sure your tests run `python3 -m pytest .`, this is a great time to ask for feedback if you'd have that option and would like to, then you can merge your changes into `main`. 
+
+
