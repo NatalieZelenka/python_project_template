@@ -33,7 +33,7 @@ Then to activate the environment, you can use:
 This command means: source (i.e. run) the `activate` script in the `venv/bin` directory.
 Then from now on, all the packages that you install in this project, will be installed in the `venv` directory.
 
-### Installing requirements
+### Installing requirements
 
 Install the required python packages:
 `pip3 install -r requirements.txt`
