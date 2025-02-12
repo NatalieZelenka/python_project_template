@@ -34,6 +34,7 @@ This command means: source (i.e. run) the `activate` script in the `venv/bin` di
 Then from now on, all the packages that you install in this project, will be installed in the `venv` directory.
 
 ### Installing requirements
+
 Install the required python packages:
 `pip3 install -r requirements.txt`
 
