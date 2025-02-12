@@ -15,7 +15,11 @@ This is a template repository for Python data science projects
 
 ### Using/downloading this template
 
-TODO: add.
+- **Step 1**. Setup GitHub SSH keys if you haven't already, following [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh). This will allow you to use GitHub via the command line without constantly putting in a password.
+- **Step 2**. Click the "use this template" button to create your own version of this template. (
+- (optional) **Step 2B** Rename your repository to something more descriptive. Go to Settings and you will see Repository name at the top.
+- **Step 3**. Clone your copy of the repository. On your copy (i.e. at github.com/<your-user-name>/python-project_template) click the green "Code" button, make sure that the "SSH" tab is selected in the drop down that appears and then click the copy symbol. Then go to where you want to set up your project, open a terminal and type `git clone ` and then paste the URL and hit enter.
+
 
 ### Virtual environment
 
