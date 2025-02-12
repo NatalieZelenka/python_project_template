@@ -1,0 +1,49 @@
+# Guide (user-friendly):
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+# Specification (technical, formal):
+# https://packaging.python.org/en/latest/specifications/pyproject-toml/
+
+
+# Choosing a build backend:
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/#choosing-a-build-backend
+[build-system]
+
+build-backend = "setuptools.build_meta" 
+requires = ['setuptools']
+
+[project]
+# This is the name of your project. The first time you publish this
+# package, this name will be registered for you. It will determine how
+# users can install this project, e.g.:
+# $ pip install sampleproject
+
+name = "sampleproject" 
+
+# Versions should comply with PEP 440:
+# https://www.python.org/dev/peps/pep-0440/
+version = "01" 
+
+description = "A sample Python project"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE.txt" }
+authors = [{ name = "A. Random Developer", email = "author@example.com" }]
+maintainers = [
+  { name = "A. Great Maintainer", email = "maintainer@example.com" },
+]
+
+# Dynamic metadata (needs to be looked up during build)
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+
+[project.urls]
+"Homepage" = "https://github.com/username/sampleproject"
+
+
+[tool.setuptools.dynamic]
+# Where the dynamic metadata is described
+dependencies = {file = ["requirements.txt"]}

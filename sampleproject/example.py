@@ -1,6 +1,6 @@
 """Example of a submodule"""
 
-def example_function(x: int, y: int, print_flag=True: bool):
+def example_function(x: int, y: int, print_flag: bool =True):
   """
   This example function is here to give a template for docstrings. These are numpy-style docstrings.
   
