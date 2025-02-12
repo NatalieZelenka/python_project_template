@@ -17,7 +17,7 @@ This is a template repository for Python data science projects
 
 TODO: add.
 
-### Virtual environments
+### Virtual environment
 
 First set up a virtual environment, this makes sure that the packages that you install only affect this project. This is really useful because when we start using lots of different packages, they can need specific versions of other packages (dependencies) and it is common to need different versions of the same package for different projects. 
 
@@ -43,7 +43,7 @@ To run all our test code, we can use:
 
 This should give us a message saying "1 passed in 0.02s" which lets us know the tests in our test directory passed!
 
-### Using Git and GitHub
+## Using Git and GitHub
 
 1. Make an issue for the problem you're planning on fixing if it doesn't already exist.
 2. Make sure you are on the `main` branch. (`git checkout main`) and `git pull` all the latest changes.
