@@ -2,13 +2,14 @@
 This is a template repository for Python data science projects
 
 ## Tour
-`sampleproject/` - the "source" directory, where we are storing all our useful python functions and classes
-`tests/` - where we are story code that tests the code in `sampleproject`
-`notebooks/` - where we keep notebooks that we use for explorations, trialling new ideas, tutorials, etc
-`data/` - where we will store any data that we are working on (it will not get uploaded to GitHub)
-`LICENSE.md` - a license file that lets other people know how they can use the code in the repository.
-`requirements.txt` - a list of python packages needed to run the code in the repository
-`pyproject.toml` - a file that helps to install and package the code in the repository
+
+- `sampleproject/` - the "source" directory, where we are storing all our useful python functions and classes
+- `tests/` - where we are story code that tests the code in `sampleproject`
+- `notebooks/` - where we keep notebooks that we use for explorations, trialling new ideas, tutorials, etc
+- `data/` - where we will store any data that we are working on (it will not get uploaded to GitHub)
+- `LICENSE.md` - a license file that lets other people know how they can use the code in the repository.
+- `requirements.txt` - a list of python packages needed to run the code in the repository
+- `pyproject.toml` - a file that helps to install and package the code in the repository
 
 ## Setup
 
